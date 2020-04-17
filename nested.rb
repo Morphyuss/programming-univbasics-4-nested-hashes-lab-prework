@@ -56,7 +56,7 @@ def dennis_ritchies_language
           :languages => ["C"]
         }
      }
-		 programmer_hash[:dennis_ritchie][:languages].class
+		 programmer_hash[:dennis_ritchie][:languages].value
 end
 
 def adding_matz
