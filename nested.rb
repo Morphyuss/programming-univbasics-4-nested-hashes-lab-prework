@@ -93,7 +93,15 @@ end
 def changing_alan
 	programmer_hash =
  		{
-        :grace_hopper => {
+				:Matz => {
+				:known_for => "Ruby",
+				:languages => ["LISP", "C"]
+			},
+			:yukihiro_matsumoto => {
+				:known_for => "Ruby",
+				:languages => ["LISP", "C"]
+			},
+				:grace_hopper => {
           :known_for => "COBOL",
           :languages => ["COBOL", "FORTRAN"]
         },
@@ -107,8 +115,7 @@ def changing_alan
         }
      }
      #change what Alan Kay is :known_for to the value of the alans_new_info variable.
-     alans_new_info = "GUI"
-
+     alans_new_info = "Object Orientation"
 
 end
 
